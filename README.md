@@ -1,13 +1,19 @@
 # LaraRest
-The simplest way to create CRUD REST API routes with Laravel. 
+Keep your API routes file clean and generate your CRUD routes via LaraRest.
 
-## STEP 1 
+## STEP 1
+Install LaraRest via Composer.
+```
+composer require davidhoeck/lararest
+```
+
+## STEP 2 
 Create your eloquent models.
 
-## STEP 2
+## STEP 3
 Go to your `api.php` in the `routes` folder.
 
-## STEP 3
+## STEP 4
 Initialize the `RestApiProvider`. Just paste the following lines of code,
 at the top of your `api.php` file.
 ```
@@ -15,7 +21,7 @@ at the top of your `api.php` file.
 $apiProvider = new \DavidHoeck\LaraRest\RestApiProvider();
 ```
 
-## STEP 4 
+## STEP 5 
 Hook your models into the provider. Add every model your want your CRUD REST routes to be generate.
 ```
 $apiProvider->addModel( new User() );
