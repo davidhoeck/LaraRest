@@ -3,6 +3,7 @@
     "description": "The simplest way to create CRUD REST API routes.",
     "type": "library",
     "license": "MIT",
+    "version": "1.0",
     "authors": [
         {
             "name": "David Höck",
