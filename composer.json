@@ -1,0 +1,19 @@
+{
+    "name": "davidhoeck/lararest",
+    "description": "The simplest way to create CRUD REST API routes.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Höck",
+            "email": "d.hoeck@alpin11.at"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DavidHoeck\\LaraRest\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
