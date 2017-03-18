@@ -3,7 +3,7 @@
     "description": "The simplest way to create CRUD REST API routes.",
     "type": "library",
     "license": "MIT",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "authors": [
         {
             "name": "David Höck",
@@ -11,13 +11,14 @@
         }
     ],
     "require": {
-       "nabil1337/case-helper": "^0.1.0"   
+       "nabil1337/case-helper": "^0.1.0",
+       "php": ">=5.6.4",
+       "laravel/framework": ">=5.2",
     },
     "autoload": {
         "psr-4": {
             "DavidHoeck\\LaraRest\\": "src/"
         }
     },
-    "minimum-stability": "stable",
-    "require": {}
+    "minimum-stability": "stable"
 }
