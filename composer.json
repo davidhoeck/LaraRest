@@ -3,13 +3,16 @@
     "description": "The simplest way to create CRUD REST API routes.",
     "type": "library",
     "license": "MIT",
-    "version": "1.0",
+    "version": "1.1",
     "authors": [
         {
             "name": "David Höck",
             "email": "d.hoeck@alpin11.at"
         }
     ],
+    "require": {
+       "nabil1337/case-helper": "^0.1.0"   
+    }
     "autoload": {
         "psr-4": {
             "DavidHoeck\\LaraRest\\": "src/"
