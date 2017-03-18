@@ -1,4 +1,8 @@
 # LaraRest
+[![Latest Stable Version](https://poser.pugx.org/davidhoeck/lararest/v/stable)](https://packagist.org/packages/davidhoeck/lararest)
+[![License](https://poser.pugx.org/davidhoeck/lararest/license)](https://packagist.org/packages/davidhoeck/lararest)
+[![Latest Unstable Version](https://poser.pugx.org/davidhoeck/lararest/v/unstable)](https://packagist.org/packages/davidhoeck/lararest)
+
 Keep your API routes file clean and generate your CRUD routes via LaraRest.
 
 ## STEP 1
