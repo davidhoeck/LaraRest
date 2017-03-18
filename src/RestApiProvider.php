@@ -68,7 +68,7 @@ class RestApiProvider
         Route::delete('/' . $modelEndpoint . '/{id}', $controllerName . '@' . self::METHOD_DELETE)
             ->name('api.' . $modelEndpoint . '.' . self::METHOD_DELETE);
 
-        Route::delete('/' . $modelEndpoint, $controllerName . '@' . self::METHOD_CREATE)
+        Route::post('/' . $modelEndpoint, $controllerName . '@' . self::METHOD_CREATE)
             ->name('api.' . $modelEndpoint . '.' . self::METHOD_CREATE);
 
 
