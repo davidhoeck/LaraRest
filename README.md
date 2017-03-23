@@ -40,9 +40,9 @@ $apiProvider->addModel( new User() );
 
 | Method  | URI                    | Name              | Action                                      | Middleware |
 |---------|------------------------|-------------------|---------------------------------------------|------------|
-|GET | api/user               | api.user.index    | App\Http\Controllers\UserController@index    | api        |
-|DELETE   | api/user               | api.user.create   | App\Http\Controllers\UserController@create   | api        |
-|GET | api/user/paginate      | api.user.paginate | App\Http\Controllers\UserController@paginate | api        |
-|GET | api/user/{id}          | api.user.find     | App\Http\Controllers\UserController@find     | api        |
-|PUT      | api/user/{id}          | api.user.update   | App\Http\Controllers\UserController@update   | api        |
-|DELETE   | api/user/{id}          | api.user.delete   | App\Http\Controllers\UserController@delete   | api        |
+|GET | api/users               | api.users.index    | App\Http\Controllers\UserController@index    | api        |
+|DELETE   | api/users               | api.users.create   | App\Http\Controllers\UserController@create   | api        |
+|GET | api/users/paginate      | api.users.paginate | App\Http\Controllers\UserController@paginate | api        |
+|GET | api/users/{id}          | api.users.find     | App\Http\Controllers\UserController@find     | api        |
+|PUT      | api/users/{id}          | api.users.update   | App\Http\Controllers\UserController@update   | api        |
+|DELETE   | api/users/{id}          | api.users.delete   | App\Http\Controllers\UserController@delete   | api        |

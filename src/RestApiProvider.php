@@ -48,7 +48,7 @@ class RestApiProvider
 
         $ch = CaseHelperFactory::make(CaseHelperFactory::INPUT_TYPE_PASCAL_CASE);
 
-        $modelEndpoint = $ch->toKebabCase( $className );
+        $modelEndpoint = str_plural( $ch->toKebabCase( $className ) );
 
         $controllerName = ucfirst( $className ) . "Controller";
 
